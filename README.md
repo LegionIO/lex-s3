@@ -2,6 +2,8 @@
 
 AWS S3 integration for [LegionIO](https://github.com/LegionIO/LegionIO). Interact with S3 buckets and objects from within task chains.
 
+**Status: stub** - Framework registration is in place but runners are not yet implemented.
+
 ## Installation
 
 ```bash
