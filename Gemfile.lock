@@ -69,8 +69,8 @@ PLATFORMS
 DEPENDENCIES
   bundler (>= 2)
   lex-s3!
-  rake (~> 12.0)
-  rspec (~> 3.0)
+  rake
+  rspec
   rubocop
 
 BUNDLED WITH
