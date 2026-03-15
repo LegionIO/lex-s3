@@ -7,5 +7,6 @@ gemspec
 
 gem 'bundler', '>= 2'
 gem 'rake'
+gem 'rexml'
 gem 'rspec'
 gem 'rubocop'
