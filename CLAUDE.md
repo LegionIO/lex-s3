@@ -10,6 +10,7 @@ Legion Extension that connects LegionIO to AWS S3. Provides bucket and object ma
 
 **GitHub**: https://github.com/LegionIO/lex-s3
 **License**: MIT
+**Version**: 0.2.0
 
 ## Architecture
 
