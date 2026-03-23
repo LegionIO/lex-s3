@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1] - 2026-03-22
+
+### Changed
+- Added runtime dependencies on legion-cache, legion-crypt, legion-data, legion-json, legion-logging, legion-settings, legion-transport (>= version constraints matching ecosystem)
+- Replaced spec_helper stubs with real sub-gem helper requires and canonical Helpers::Lex + actor stubs
+- Updated Gemfile to use test group with simplecov, rspec_junit_formatter, and rexml
+
 ## [0.2.0] - 2026-03-15
 
 ### Added
