@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe Legion::Extensions::S3::Client do # rubocop:disable Metrics/BlockLength
+RSpec.describe Legion::Extensions::S3::Client do
   let(:mock_s3) { double('Aws::S3::Client') }
 
   before do
