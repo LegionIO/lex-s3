@@ -23,7 +23,7 @@ module Legion
           def bucket_exists?(bucket:, **)
             s3_client(**).head_bucket(bucket: bucket)
             { exists: true, bucket: bucket }
-          rescue Aws::S3::Errors::NotFound, Aws::S3::Errors::NoSuchBucket
+          rescue Aws::S3::Errors::NotFound, Aws::S3::Errors::NoSuchBucket => _e
             { exists: false, bucket: bucket }
           end
         end
